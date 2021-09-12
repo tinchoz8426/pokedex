@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex - Proyecto de API</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- CSS Custom -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <form action="" id="form">
+        <input type="text" id="perro" name="pokemon" autocomplete="off" placeholder="Numero/nombre del Pokemon y presiona enter">
+    </form>
+    <div data-poke-card class="pokecard">
+        <div data-poke-name>Pokedex</div>
+        <div data-poke-image-container class="image-container">
+            <img data-poke-image class="image-pokemon" src="pokemon-no-encontrado.png" alt="Pokemon">
+        </div>
+        <div data-poke-id></div>
+        <div data-poke-types class="poke-types"></div>
+        <div data-poke-stats class="poke-stats"></div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+/* Body */
+body{
+    height: 100vh;
+    background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(255,0,0,1) 50%, rgba(255,0,0,1) 100%);
+}
+
+/* Reseteo */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Formulario e input */
+form{
+    width: 20em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+    margin-bottom: 2em
+}
+
+input{
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    background: none;
+    color: white;
+}
+input::placeholder{
+    color: white;
+}
+input:focus-visible{
+    outline: none;
+}
+
+/* Toda la CARD */
+.pokecard{
+    position: relative;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 300px;
+    background-color: white;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 8px;
+    box-shadow: 5px 5px 2px 0 rgba(0, 0, 0, 0.25);
+    transition: ease-in-out 0.4s;
+}
+.pokecard:hover{
+    transform: scale(1.05);
+}
+
+.image-container{
+    position: relative;
+    margin: 10px 0;
+}
+
+.poke-types div{
+    padding: 5px;
+    margin: 5px;
+    border: 1px dashed #5f5f5f;
+    border-radius: 5px;
+}
+
+.poke-stats div{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+}
+
+.image-pokemon{
+    width: 96px;
+}
